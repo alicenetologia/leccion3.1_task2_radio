@@ -196,6 +196,7 @@ class RadioTest {
 
         assertEquals(0, radio.getCurrentVolume());
     }
+
     @Test
     public void shouldVomumeDown1() {
         Radio radio = new Radio(
@@ -207,6 +208,7 @@ class RadioTest {
 
         assertEquals(49, radio.getCurrentVolume());
     }
+
     @Test
     public void shouldVomumeDown2() {
         Radio radio = new Radio(
@@ -218,6 +220,7 @@ class RadioTest {
 
         assertEquals(100, radio.getCurrentVolume());
     }
+
     @Test
     public void shouldVomumeDown3() {
         Radio radio = new Radio(
